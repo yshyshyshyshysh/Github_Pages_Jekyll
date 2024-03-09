@@ -1,4 +1,4 @@
-# Build and Deploy Websites with Github Pages
+# Build and Deploy Static Webpages with Github Pages
 
 ## Steps <be>
 
