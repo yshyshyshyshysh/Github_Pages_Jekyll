@@ -10,7 +10,7 @@
 
 **Step 2. 套用網頁主題**
 
--   由於 2022 年 github 刪除 select theme 的功能，只能改用 Jekyll 來套用現成的主題
+-   由於 2022 年 github 刪除 select theme 的功能，只能改用 Jekyll 來套用現成的主題，或是用其他靜態檔案產生器像是 Hexo / Hugo
 
 ## References <br>
 
