@@ -3,6 +3,7 @@
 -   只能部屬靜態網頁 ~ 部落格、實驗室網站、作品集都適合 ~<br>
 -   以下分為[部屬網頁](#部屬網頁)和[套用現成的網頁主題](#套用現成的網頁主題)兩步驟
 
+
 ## 部屬網頁
 
 #### Step 1. 建立 public repo
@@ -14,7 +15,7 @@
 -   到該 repo 的 settings 更改成 main branch
 
 #### Step 3. 開啟測試網頁
--   部屬好了，隨便新增一個測試用檔案 **`test.txt`**
+-   部屬好了，隨便新增一個測試用檔案: **`test.txt`**
 -   然後開啟該檔案的網址: https://yshyshyshyshysh.github.io/test-Github_Pages/test.txt
 
 
@@ -33,12 +34,12 @@
 -   接著就按照他的說明進行安裝: 執行 **`bundle config set --local path vendor/bundle`** **`bundle install`**
 
 #### Step 4. 裝好就可以預覽網頁
--   啟動伺服器來預覽整個網站 (這裡使用 Gemfile 中指定的 gem 版本來運行才不會出錯): **`bundle exec jekyll serve --trace`**
--   或是透過前面建立好的 Github Pages 的路徑也可以預覽某個分頁: https://yshyshyshyshysh.github.io/test-Github_Pages/_posts/2020-01-23-the-ride-in-the-woods.md
+-   本地端啟動伺服器來預覽整個網站 (這裡使用 Gemfile 中指定的 gem 版本來運行才不會出錯): **`bundle exec jekyll serve --trace`**
+-   或是將所有修改同步到 github，透過前面建立好的 Github Pages 的路徑也可以預覽某個分頁: https://yshyshyshyshysh.github.io/test-Github_Pages/index.html
 
 #### Step 5. 撰寫內容
--   建立自己的網頁內容，並存檔為 **`YYYY-MM-DD-{article_title}.md`** 格式: **`2024-03-10-test.md`**
--   將該檔案放在 _posts 資料夾下，同步到 github，網頁中就有自己的內容了: https://yshyshyshyshysh.github.io/test-Github_Pages/_posts/2024-03-10-test
+-   將自己的網頁內容建立在 _posts 資料夾下，檔名格式為 **`YYYY-MM-DD-{article_title}.md`**: **`2024-03-10-test.md`**
+-   用 Step 4 的方式開啟就可以看到網頁中新加入的內容了 ~
 
 
 ## References
