@@ -6,15 +6,15 @@
 
 **Step 1. 部屬網頁**
 
--   建立 public repo，要 public 才可使用 GitHub Pages。若要建立個人網頁應取名為 **`YOURNAME.github.io`**，若要建立專案網頁則直接取名為 **`PROJECTNAME`**，以下以專案網頁做示範: **`test-Github_Pages`**
+-   建立 public repo，要 public 才可使用 GitHub Pages。若要建立個人網頁應取名為 **`YOURNAME.github.io`**，若要建立專案網頁則直接取名為 **`PROJECTNAME`**，這裡建立的是專案網頁: **`test-Github_Pages`**
 -   到該 repo 的 settings 更改成 main branch
 -   部屬好了，開啟測試檔案的網址: **`https://yshyshyshyshysh.github.io/test-Github_Pages/test.txt`**
 
 **Step 2. 套用網頁主題**
 
 -   選擇要用的靜態網站產生器（Static Site Generator），由於 2022 年 github 刪除 select theme 的功能，只能改用 Jekyll 來套用現成的主題，或是用其他靜態檔案產生器像是 Hexo / Hugo，他們的語法和資源皆有差異。看了一下覺得 Jekyll 裡的模板比較好看 XD、資源也多，所以這裡用 Jekyll
--   選擇想要的模板，我用 [BlogBox Jekyll Theme](https://jamstackthemes.dev/theme/blogbox-jekyll-theme/)
--   在本地端安裝 Ruby 跟 Jekyll
+-   在本地端安裝 Ruby 跟 Jekyll: **`gem install jekyll bundler`**
+-   選擇想要的模板，我用 [BlogBox Jekyll Theme](https://jamstackthemes.dev/theme/blogbox-jekyll-theme/)，接著就按照他的說明進行安裝 ~
 
 
 ## References <br>
@@ -27,6 +27,4 @@
 **About Jekyll Theme**
 -   [Jekyll Quickstart](https://jekyllrb.com/docs/)
 -   [Jekyll Themes](https://jekyllrb.com/docs/themes/)
--   [用 gem-based method / remote theme method 套用主題](https://ktinglee.github.io/install-github-pages-blog-3/)
--   (https://hackmd.io/@CynthiaChuang/Setting-Up-a-GitHub-Pages-Site-with-Jekyll)
--   [直接用 fork 的方式套用主題](https://xareelee.github.io/tech_note/2015/07/23/%E4%BD%BF%E7%94%A8-GitHub-Pages-%E5%92%8C-Jekyll-%E4%BE%86%E5%BB%BA%E7%AB%8B-Blog.html)
+
