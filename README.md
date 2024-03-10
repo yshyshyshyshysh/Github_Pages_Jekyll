@@ -3,7 +3,7 @@
 -   只能部屬靜態網頁 ~ 部落格、實驗室網站、作品集都適合 ~<br>
 -   以下分為[部屬網頁](#部屬網頁)和[套用現成的網頁主題](#套用現成的網頁主題)兩步驟
 
-## 部屬網頁 <be>
+## 部屬網頁
 
 #### Step 1. 建立 public repo
 -   要 public 才可使用 GitHub Pages
@@ -18,7 +18,7 @@
 -   然後開啟該檔案的網址: https://yshyshyshyshysh.github.io/test-Github_Pages/test.txt
 
 
-## 套用現成的網頁主題 <be>
+## 套用現成的網頁主題
 
 #### Step 1. 選擇要用的靜態網站產生器（Static Site Generator）
 -   由於 2022 年 github 刪除 select theme 的功能，只能改用 Jekyll 來套用現成的主題，或是用其他靜態檔案產生器像是 Hexo / Hugo，他們的語法和資源皆有差異
@@ -41,7 +41,7 @@
 -   將該檔案放在 _posts 資料夾下，同步到 github，網頁中就有自己的內容了: https://yshyshyshyshysh.github.io/test-Github_Pages/_posts/2024-03-10-test
 
 
-## References <br>
+## References
 
 **About GitHub Pages**
 -   [GitHub Pages 相關限制](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits)
