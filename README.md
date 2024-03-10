@@ -16,7 +16,7 @@
 
 #### Step 3. 開啟測試網頁
 -   部屬好了，隨便新增一個測試用檔案: **`test.txt`**
--   然後開啟該檔案的網址: https://yshyshyshyshysh.github.io/test-Github_Pages/test.txt
+-   然後開啟該檔案的網址: https://yshyshyshyshysh.github.io/test-Github_Pages_Jekyll/test.txt
 
 
 ## 套用現成的網頁主題
@@ -35,7 +35,7 @@
 
 #### Step 4. 裝好就可以預覽網頁
 -   本地端啟動伺服器來預覽整個網站 (這裡使用 Gemfile 中指定的 gem 版本來運行才不會出錯): **`bundle exec jekyll serve --trace`**
--   或是將所有修改同步到 github，透過前面建立好的 Github Pages 的路徑也可以預覽某個分頁: https://yshyshyshyshysh.github.io/test-Github_Pages/index.html
+-   或是將所有修改同步到 github，透過前面建立好的 Github Pages 的路徑也可以預覽某個分頁: https://yshyshyshyshysh.github.io/test-Github_Pages_Jekyll/index.html
 
 #### Step 5. 撰寫內容
 -   將自己的網頁內容建立在 _posts 資料夾下，檔名格式為 **`YYYY-MM-DD-{article_title}.md`**: **`2024-03-10-test.md`**
