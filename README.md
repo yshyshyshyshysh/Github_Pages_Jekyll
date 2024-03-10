@@ -27,4 +27,5 @@
 **About Jekyll Theme**
 -   [Jekyll Quickstart](https://jekyllrb.com/docs/)
 -   [Jekyll Themes](https://jekyllrb.com/docs/themes/)
+-   [用 gem-based method / remote theme method 套用主題](https://ktinglee.github.io/install-github-pages-blog-3/)
 
