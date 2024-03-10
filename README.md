@@ -1,30 +1,44 @@
 # Deploy and Build Static Webpages with Github Pages
 
-只能部屬靜態網頁 ~ 部落格、實驗室網站、作品集都適合 ~
+-   只能部屬靜態網頁 ~ 部落格、實驗室網站、作品集都適合 ~<br>
+-   以下分為[部屬網頁](#部屬網頁)和[套用現成的網頁主題](#套用現成的網頁主題)兩步驟
 
-## Steps <be>
+## 部屬網頁 <be>
 
-**Step 1. 部屬網頁**
+#### Step 1. 建立 public repo
+-   要 public 才可使用 GitHub Pages
+-   若要建立個人網頁應取名為 **`YOURNAME.github.io`**
+-   若要建立專案網頁則直接取名為 **`PROJECTNAME`**，這裡是建立專案網頁: **`test-Github_Pages`**
 
--   建立 public repo，要 public 才可使用 GitHub Pages
-  <br>若要建立個人網頁應取名為 **`YOURNAME.github.io`**
-  <br>若要建立專案網頁則直接取名為 **`PROJECTNAME`**，這裡是建立專案網頁: **`test-Github_Pages`**
+#### Step 2. 更改 repo 設定
 -   到該 repo 的 settings 更改成 main branch
+
+#### Step 3. 開啟測試網頁
 -   部屬好了，隨便新增一個測試用檔案 **`test.txt`**
-  <br>然後開啟該檔案的網址: https://yshyshyshyshysh.github.io/test-Github_Pages/test.txt
+-   然後開啟該檔案的網址: https://yshyshyshyshysh.github.io/test-Github_Pages/test.txt
 
-**Step 2. 套用現成的網頁主題**
 
--   選擇要用的靜態網站產生器（Static Site Generator）
-  <br>由於 2022 年 github 刪除 select theme 的功能，只能改用 Jekyll 來套用現成的主題，或是用其他靜態檔案產生器像是 Hexo / Hugo，他們的語法和資源皆有差異
-  <br>看了一下覺得 Jekyll 裡的模板比較好看 XD、資源也多，所以這裡用 Jekyll
--   在本地端安裝 Ruby 跟 Jekyll: **`gem install jekyll bundler`**
--   選擇想要的模板，我用 [BlogBox Jekyll Theme](https://jamstackthemes.dev/theme/blogbox-jekyll-theme/)
-  <br>接著就按照他的說明進行安裝: **`bundle config set --local path vendor/bundle`** **`bundle install`**
--   裝好就可以預覽網頁
-  <br>啟動伺服器來預覽整個網站 (這裡使用 Gemfile 中指定的 gem 版本來運行才不會出錯): **`bundle exec jekyll serve --trace`**
-  <br>或是透過 Github Pages 的路徑也可以預覽某個分頁: https://yshyshyshyshysh.github.io/test-Github_Pages/_posts/2020-01-23-the-ride-in-the-woods.md
--   最後將 **`YYYY-MM-DD-{article_title}.md`** 的內容檔放在 _posts 資料夾下，網頁中就有自己的內容了 ~
+## 套用現成的網頁主題 <be>
+
+#### Step 1. 選擇要用的靜態網站產生器（Static Site Generator）
+-   由於 2022 年 github 刪除 select theme 的功能，只能改用 Jekyll 來套用現成的主題，或是用其他靜態檔案產生器像是 Hexo / Hugo，他們的語法和資源皆有差異
+-   看了一下覺得 Jekyll 裡的模板比較好看 XD、資源也多，所以這裡用 Jekyll
+
+#### Step 2. 在本地端安裝 Ruby 跟 Jekyll
+-   [RubyInstaller](https://rubyinstaller.org/)
+-   執行 **`gem install jekyll bundler`**
+
+#### Step 3. 在本地端安裝想要的網站模板
+-   我用 [BlogBox Jekyll Theme](https://jamstackthemes.dev/theme/blogbox-jekyll-theme/)
+-   接著就按照他的說明進行安裝: 執行 **`bundle config set --local path vendor/bundle`** **`bundle install`**
+
+#### Step 4. 裝好就可以預覽網頁
+-   啟動伺服器來預覽整個網站 (這裡使用 Gemfile 中指定的 gem 版本來運行才不會出錯): **`bundle exec jekyll serve --trace`**
+-   或是透過前面建立好的 Github Pages 的路徑也可以預覽某個分頁: https://yshyshyshyshysh.github.io/test-Github_Pages/_posts/2020-01-23-the-ride-in-the-woods.md
+
+#### Step 5. 撰寫內容
+-   建立自己的網頁內容，並存檔為 **`YYYY-MM-DD-{article_title}.md`** 格式: **`2024-03-10-test.md`**
+-   將該檔案放在 _posts 資料夾下，同步到 github，網頁中就有自己的內容了: https://yshyshyshyshysh.github.io/test-Github_Pages/_posts/2024-03-10-test
 
 
 ## References <br>
@@ -37,5 +51,6 @@
 **About Jekyll Theme**
 -   [Jekyll Quickstart](https://jekyllrb.com/docs/)
 -   [Jekyll Themes 選擇主題](https://jekyllrb.com/docs/themes/)
--   [用 gem-based method / remote theme method 套用主題](https://ktinglee.github.io/install-github-pages-blog-3/)
+-   [git clone 方式套用 Jekyll 主題](https://hackmd.io/@CynthiaChuang/Setting-Up-a-GitHub-Pages-Site-with-Jekyll)
+-   [用 gem-based method / remote theme method 套用 Jekyll 主題](https://ktinglee.github.io/install-github-pages-blog-3/)
 
