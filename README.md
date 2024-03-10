@@ -31,7 +31,7 @@
 
 #### Step 3. 在本地端安裝想要的網站模板
 -   我用 [BlogBox Jekyll Theme](https://jamstackthemes.dev/theme/blogbox-jekyll-theme/)
--   接著就按照他的說明進行安裝: 執行 **`bundle config set --local path vendor/bundle`** **`bundle install`**
+-   接著就按照他的說明進行安裝:<br> **`bundle config set --local path vendor/bundle`**<br> **`bundle install`**
 
 #### Step 4. 裝好就可以預覽網頁
 -   本地端啟動伺服器來預覽整個網站 (這裡使用 Gemfile 中指定的 gem 版本來運行才不會出錯): **`bundle exec jekyll serve --trace`**
