@@ -1,4 +1,5 @@
 # Deploy and Build Static Webpages with Github Pages and Jekyll
+**`March 11, 2024 / by Yu-Shin, Hu`**
 
 -   只能部屬靜態網頁 ~ 部落格、實驗室網站、作品集都適合 ~<br>
 -   以下分為[部屬網頁](#部屬網頁)和[套用現成的網頁主題](#套用現成的網頁主題)兩步驟
